@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<title>
+			
+		</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Michael Jonathan e Joaquim Costa">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<!--<div class="mainContainer">
+			<div class="country">
+				Sweden<br>
+				SW
+			</div>
+			<div class="title">
+				<b>Islands in the West<b>
+			</div>
+		</div>
+-->
+		<div class="image">
+			<figure>
+				<img src="images/island.jpg">
+			</figure>
+		</div>
+	
+		<div class="info">
+			<button id="branco" type="button" onclick="DeixarBranco()">Branco</button>
+			<button id="vermelho" type="button" onclick="DeixarVermelho()" style="background-color:orangered">Vermelho</button>
+			<button id="verde" type="button" onclick="DeixarVerde()" style="background-color:greenyellow">Verde</button>
+			<h2 style="padding-left: 5%;"><center>Deixe seu recado!</center></h2><br>
+
+		<!-- 	<form class="form" action="" method="get">
+				<center>
+					<p  style="padding-left: 4%;">Nome: <input type="text" class="name"></p><br>
+					<p>Mensagem: <input type="text" class="mensagem"></p><br>
+					<center style="padding-left: 25%;"><button>Enviar</button></center>
+				</center>
+			</form>
+			<div class="resultado"></div>
+			</div>
+		</div>
+-->
+
+		<div class="form">
+			<form name="message" action="">
+				<label  id = "inputname" for="name"> Nome: </label>
+				<input 	 name="nome" type="text" id="nome" /> <br>
+				
+				<label id = "inputmsg" for="msg"> Mensagem: </label>
+				<input name="mensagem" type="text" id="mensagem" />
+
+				<div class="button">
+					<button class="btn_Send_Message" type="button" onclick="Enviar()"> Enviar </button>
+				</div>
+
+			</form>
+			</div>
+
+			<div id = "resultado">
+				
+			</div>
+		</div>
+	</body>
+	<footer>
+		<center><button class="btn_credits" type="button" onclick="MostraCreditos()"> Créditos</button></center>
+	</footer>
+	
+</html>
