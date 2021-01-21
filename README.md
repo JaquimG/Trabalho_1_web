@@ -2,5 +2,5 @@
 trabalho 1 de web com javascript, html e css.
 
 Equipe:
-Joaquim Costa
+Joaquim Costa e
 Michael Jonathan
